@@ -22,7 +22,7 @@ public:
 
             for (int j = i - 1; j >= 0; j--) {
                 if (jobs[i].startTime >= jobs[j].endTime) {
-                    p[i] = j;
+                    p[i] = j + 1;
                     break;
                 }
             }
@@ -42,5 +42,14 @@ public:
         vector<int> p(n);
 
         computeP(p, jobs, n);
+
+        vector<int> dp(n + 1);
+        dp[0] = 0;
+
+        for (int i = 1; i <= n; i++) {
+            dp[i] = max(jobs[i - 1].profit + dp[p[i - 1]], dp[i - 1]);
+        }
+
+        return dp[n];
     }
 };
