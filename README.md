@@ -15,9 +15,12 @@ Este projeto tem como objetivo a resolução de exercícios da plataforma de ju�
 ## Screenshots
 Adicione 3 ou mais screenshots do projeto em funcionamento.
 
+**62. Unique Paths** 
+![imagem1](./screenshots/62.png)
+
 ## Instalação 
-**Linguagem**: xxxxxx<br>
-**Framework**: (caso exista)<br>
+**Linguagem**: python3.x<br>
+**Framework**: nenhum<br>
 Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
 
 ## Uso 
