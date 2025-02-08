@@ -15,10 +15,17 @@ Este projeto tem como objetivo a resolução de exercícios da plataforma de ju�
 ## Screenshots
 Adicione 3 ou mais screenshots do projeto em funcionamento.
 
+**62. Unique Paths** 
+![imagem1](./screenshots/62.png)
+
+**44. Wildcard Matching** 
+![imagem2](./screenshots/44.png)
+
+**1235. Maximum Profit in Job Scheduling**
+![imagem3](./screenshots/1235.png)
+
 ## Instalação 
-**Linguagem**: xxxxxx<br>
-**Framework**: (caso exista)<br>
-Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
+**Linguagem**: C, Python3.x<br>
 
 ## Uso 
 Para rodar os códigos, primeiro acesse o site do [LeetCode](https://leetcode.com), faça login e pesquise a questão. Depois, selecione a linguagem correta, copie e cole o código na aba "Code", e clique em "Run" para testar ou "Submit" para enviar a solução.
