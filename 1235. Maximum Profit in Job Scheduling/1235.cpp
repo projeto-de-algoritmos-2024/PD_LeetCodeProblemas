@@ -16,17 +16,28 @@ public:
         return a.endTime < b.endTime;
     }
 
-    void computeP(vector<int> &p, vector<Job> &jobs, int n) {
-        for (int i = 0; i < n; i++) {
-            p[i] = 0;
+    int binarySearch(vector<Job>& jobs, int i) {
+        int low = 0, high = i - 1;
+        int result = 0;
 
-            for (int j = i - 1; j >= 0; j--) {
-                if (jobs[i].startTime >= jobs[j].endTime) {
-                    p[i] = j + 1;
-                    break;
-                }
+        while (low <= high) {
+            int mid = low + (high - low) / 2;
+
+            if (jobs[mid].endTime <= jobs[i].startTime) {
+                result = mid + 1;
+                low = mid + 1;
+            } else {
+                high = mid - 1;
             }
-        }   
+        }
+
+        return result;
+    }
+
+    void computeP(vector<int>& p, vector<Job>& jobs, int n) {
+        for (int i = 0; i < n; i++) {
+            p[i] = binarySearch(jobs, i);
+        }
     }
 
     int jobScheduling(vector<int>& startTime, vector<int>& endTime, vector<int>& profit) {
