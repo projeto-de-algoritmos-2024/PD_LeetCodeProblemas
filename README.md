@@ -32,6 +32,12 @@ Para rodar os códigos, primeiro acesse o site do LeetCode, faça login e pesqui
 ## Outros 
 Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
 
+## Vídeos
 
+**62. Unique Paths**
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/koUjqkS8uGU?si=KgRmXRhQgs2s4HVN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+**44. Winldcard Matching** 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Qxxs4czwOuw?si=K37NshSDb8U6z_we" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
