@@ -1,3 +1,5 @@
+from functools import lru_cache
+
 class Solution:
     def isMatch(self, s: str, p: str) -> bool:
         m, n = len(s), len(p)
@@ -18,3 +20,27 @@ class Solution:
                     dp[i][j] = dp[i - 1][j] or dp[i][j - 1]
         
         return dp[m][n]
+
+    from functools import lru_cache
+
+
+    def isMatch(self, s: str, p: str) -> bool:
+        @lru_cache(None)
+        def dp(i, j):
+            
+            if i == len(s) and j == len(p):
+                return True
+          
+            if j == len(p):
+                return False
+            
+          
+            match = i < len(s) and (s[i] == p[j] or p[j] == '?')
+            
+            if p[j] == '*':
+                
+                return dp(i, j + 1) or (i < len(s) and dp(i + 1, j))
+            
+            return match and dp(i + 1, j + 1)
+        
+        return dp(0, 0)
