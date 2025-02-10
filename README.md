@@ -48,10 +48,13 @@ Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
 
 ## Vídeos
 
-**62. Unique Paths**
+[Vídeo da questão 62. Unique Paths](https://www.youtube.com/embed/koUjqkS8uGU?si=KgRmXRhQgs2s4HVN)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/koUjqkS8uGU?si=KgRmXRhQgs2s4HVN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-**44. Winldcard Matching** 
+[Vídeo da questão 44. Wildcard Matching](https://www.youtube.com/embed/Qxxs4czwOuw?si=K37NshSDb8U6z_we)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Qxxs4czwOuw?si=K37NshSDb8U6z_we" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+[Vídeo da questão 188. Best Time to Buy and Sell Stock IV](https://youtu.be/OVIvrEAKcT8)
+
+
+[Vídeo da questão 1235. Maximum Profit in Job Scheduling](https://youtu.be/gPDIXqvbB44)
